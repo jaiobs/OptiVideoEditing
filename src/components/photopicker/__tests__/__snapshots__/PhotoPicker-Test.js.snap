@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoPicker-Test should render the PhotoPicker 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="#f9089b"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "alignSef": "center",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`PhotoPicker-Test should render the initial ImageCell 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "borderColor": "#f9089b",
+      "borderWidth": 0,
+      "height": "100%",
+      "margin": 2,
+      "opacity": 1,
+      "padding": 1,
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "test-image.png",
+      }
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#f9089b",
+        "borderRadius": 10,
+        "height": 20,
+        "justifyContent": "center",
+        "position": "absolute",
+        "right": 5,
+        "top": 5,
+        "width": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 12,
+        }
+      }
+    >
+      NaN
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`PhotoPicker-Test should render the selected ImageCell 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "borderColor": "#f9089b",
+      "borderWidth": 3,
+      "height": "100%",
+      "margin": 2,
+      "opacity": 1,
+      "padding": 1,
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "test-image.png",
+      }
+    }
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#f9089b",
+        "borderRadius": 10,
+        "height": 20,
+        "justifyContent": "center",
+        "position": "absolute",
+        "right": 5,
+        "top": 5,
+        "width": 20,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 12,
+        }
+      }
+    >
+      1
+    </Text>
+  </View>
+</View>
+`;

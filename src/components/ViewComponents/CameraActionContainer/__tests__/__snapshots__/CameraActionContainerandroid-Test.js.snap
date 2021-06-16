@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CameraActionContainerTest should render the CameraActionContainer 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "flex-end",
+      "backgroundColor": "transparent",
+      "flexDirection": "column",
+      "height": "100%",
+      "marginTop": 10,
+      "position": "absolute",
+      "zIndex": 2,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 40,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "marginLeft": 4,
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/res/assets/images/shadow_icon.png",
+          }
+        }
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View>
+    <View
+      style={Object {}}
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flex": 1,
+          "justifyContent": "space-between",
+          "paddingBottom": 26,
+          "paddingTop": 8,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/delete_last.png",
+            }
+          }
+          style={
+            Object {
+              "height": 32,
+              "width": 32,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

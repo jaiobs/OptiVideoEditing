@@ -1,0 +1,725 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagUserPicker Tests should render TagUserPicker correctly 1`] = `
+<Modal
+  animationType="none"
+  deviceHeight={null}
+  deviceWidth={null}
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  onRequestClose={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    deviceHeight={null}
+    deviceWidth={null}
+    hideModalContentWhileAnimating={false}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    pointerEvents="box-none"
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#00000060",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "margin": 0,
+        "transform": Array [
+          Object {
+            "translateY": 1334,
+          },
+        ],
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-evenly",
+            "marginLeft": 5,
+            "marginRight": 15,
+            "marginTop": 30,
+            "top": 20,
+          },
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignSelf": "flex-start",
+            "margin": 10,
+            "marginTop": 15,
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/cross.png",
+            }
+          }
+          style={
+            Object {
+              "height": 24,
+              "resizeMode": "contain",
+              "width": 24,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#00000090",
+              "flex": 1,
+              "flexDirection": "row",
+              "marginLeft": 5,
+              "marginRight": 5,
+            },
+          ]
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/search-icon.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 25,
+              "margin": 5,
+              "resizeMode": "contain",
+              "width": 25,
+            }
+          }
+        />
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Search users"
+          placeholderTextColor="white"
+          rejectResponderTermination={true}
+          style={
+            Array [
+              Object {
+                "color": "white",
+                "flex": 1,
+                "height": 40,
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+    </View>
+    <RCTScrollView
+      bounces={false}
+      contentContainerStyle={
+        Object {
+          "alignSelf": "center",
+          "width": "100%",
+        }
+      }
+      data={Array []}
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      numColumns={1}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Array [
+          Object {
+            "marginBottom": 10,
+            "marginLeft": 16,
+            "marginRight": 30,
+            "marginTop": 10,
+            "width": "100%",
+          },
+        ]
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+</Modal>
+`;
+
+exports[`TagUserPicker render flatlist with defined values should match the snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "margin": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingBottom": 5,
+        "paddingLeft": 10,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 25,
+            "height": 50,
+            "width": 50,
+          },
+        ]
+      }
+    >
+      <FastImageView
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "test-image.pnge",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "paddingLeft": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "flex": 1,
+            "fontSize": 16,
+            "marginTop": 5,
+            "width": "100%",
+          }
+        }
+      >
+        firstName
+         
+        lastName
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "flex": 1,
+              "fontSize": 16,
+              "marginTop": 5,
+              "width": "100%",
+            },
+            Object {
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        @
+        userName
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,0.6)",
+            "height": 1,
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TagUserPicker render flatlist with defined values should match the snapshot 2`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "margin": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingBottom": 5,
+        "paddingLeft": 10,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 25,
+            "height": 50,
+            "width": 50,
+          },
+        ]
+      }
+    >
+      <FastImageView
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "test-image.pnge",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "paddingLeft": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "flex": 1,
+            "fontSize": 16,
+            "marginTop": 5,
+            "width": "100%",
+          }
+        }
+      >
+        firstName
+         
+        lastName
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "flex": 1,
+              "fontSize": 16,
+              "marginTop": 5,
+              "width": "100%",
+            },
+            Object {
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        @
+        userName
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,0.6)",
+            "height": 1,
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TagUserPicker render flatlist with null values should match the snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "margin": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingBottom": 5,
+        "paddingLeft": 10,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 25,
+            "height": 50,
+            "width": 50,
+          },
+        ]
+      }
+    >
+      <FastImageView
+        resizeMode="cover"
+        source={
+          Object {
+            "testUri": "../../../src/res/assets/images/user_placeholder.png",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "paddingLeft": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "flex": 1,
+            "fontSize": 16,
+            "marginTop": 5,
+            "width": "100%",
+          }
+        }
+      >
+         
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "flex": 1,
+              "fontSize": 16,
+              "marginTop": 5,
+              "width": "100%",
+            },
+            Object {
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        @
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,0.6)",
+            "height": 1,
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`TagUserPicker render flatlist with null values should match the snapshot 2`] = `
+<View
+  accessible={true}
+  focusable={true}
+  isTVSelectable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "margin": 10,
+      "opacity": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingBottom": 5,
+        "paddingLeft": 10,
+        "paddingTop": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 25,
+            "height": 50,
+            "width": 50,
+          },
+        ]
+      }
+    >
+      <FastImageView
+        resizeMode="cover"
+        source={
+          Object {
+            "testUri": "../../../src/res/assets/images/user_placeholder.png",
+          }
+        }
+        style={
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "paddingLeft": 5,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "flex": 1,
+            "fontSize": 16,
+            "marginTop": 5,
+            "width": "100%",
+          }
+        }
+      >
+         
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "flex": 1,
+              "fontSize": 16,
+              "marginTop": 5,
+              "width": "100%",
+            },
+            Object {
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        @
+      </Text>
+      <View
+        style={
+          Object {
+            "backgroundColor": "rgba(255,255,255,0.6)",
+            "height": 1,
+            "marginTop": 10,
+            "width": "100%",
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

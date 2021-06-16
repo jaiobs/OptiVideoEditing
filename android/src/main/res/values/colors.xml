@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#62b1e6</color>
+    <color name="colorPrimaryDark">#62b1e6</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="white">#ffffffff</color>
+    <color name="red">#aacc0000</color>
+    <color name="background_video_color">#2f3031</color>
+    <color name="background_progress_color">#6C6D6D</color>
+    <color name="progress_color">#aacc0000</color>
+    <color name="line_color">#FF15FF00</color>
+    <color name="shadow_color">#7FF9089B</color>
+    <color name="color_purple">#F9089B</color>
+    <color name="line_button">#565758</color>
+    <color name="black_translucent">#50000000</color>
+    <color name="top_bottom">#42BAF8</color>
+    <color name="yellow">#ffff00</color>
+    <color name="blur_blue">#171A25</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_shade">#BE000000</color>
+
+    <!--audio trimmer module -->
+    <color name="colorGridLine">#ed008c</color>
+    <color name="waveformSelected">#ed008c</color>
+    <color name="waveformUnselected">#FFFF</color>
+    <color name="audio_trimmer_bg_color">#E9444655</color>
+
+    <color name="colorGridLineTransparent">#00ed1b24</color>
+    <color name="waveformUnselectedBackground">#FFFF</color>
+    <color name="colorSelectionBorder">#9c41bc</color>
+    <color name="colorPlaybackIndicator">#b2253571</color>
+    <color name="colorTimeCode">#dd253571</color>
+    <color name="colorTimeCodeShadow">#aa253571</color>
+    <color name="colorWaveformBg">#253571</color>
+
+    <color name="progress_dialog_background">#b1000000</color>
+</resources>

@@ -1,0 +1,546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AudioTrimmer Tests should render AudioTrimmer correctly 1`] = `
+<Modal
+  animationType="none"
+  deviceHeight={null}
+  deviceWidth={null}
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  onRequestClose={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={false}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    deviceHeight={null}
+    deviceWidth={null}
+    hideModalContentWhileAnimating={false}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    pointerEvents="box-none"
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "flex": 1,
+        "justifyContent": "flex-end",
+        "margin": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+        "zIndex": 999,
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "rgba(0, 0, 0, 0.82)",
+          "borderTopLeftRadius": 30,
+          "borderTopRightRadius": 30,
+          "height": "70%",
+          "width": "100%",
+          "zIndex": 999,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingBottom": 10,
+            "paddingTop": 20,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/music.png",
+            }
+          }
+          style={
+            Object {
+              "height": 50,
+              "resizeMode": "contain",
+              "width": 50,
+            }
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 14,
+              "marginLeft": 5,
+              "textAlign": "left",
+              "width": "70%",
+            }
+          }
+        />
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "white",
+              "fontSize": 14,
+              "marginLeft": 5,
+              "textAlign": "left",
+              "width": "70%",
+            },
+            Object {
+              "fontSize": 12,
+              "marginLeft": 20,
+            },
+          ]
+        }
+      >
+        start from 
+        0
+      </Text>
+      <View
+        style={
+          Object {
+            "height": 160,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "paddingTop": 10,
+                "position": "absolute",
+                "width": 14,
+                "zIndex": 1,
+              },
+              Object {
+                "left": 0,
+                "position": "absolute",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#63707e",
+                  "borderRadius": 3,
+                  "height": 155,
+                  "marginLeft": -5,
+                  "marginTop": 15,
+                  "width": 5,
+                },
+                Object {
+                  "backgroundColor": "#f9089b",
+                },
+              ]
+            }
+          />
+        </View>
+        <RCTScrollView
+          contentContainerStyle={
+            Object {
+              "flexGrow": 1,
+              "width": 1600,
+            }
+          }
+          horizontal={true}
+          onLayout={[Function]}
+          onMoveShouldSetResponder={[Function]}
+          onMoveShouldSetResponderCapture={[Function]}
+          onResponderEnd={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderReject={[Function]}
+          onResponderRelease={[Function]}
+          onResponderStart={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onScroll={[Function]}
+          onScrollEndDrag={[Function]}
+          onStartShouldSetResponder={[Function]}
+          onStartShouldSetResponderCapture={[Function]}
+          scrollEnabled={true}
+          showsHorizontalScrollIndicator={true}
+          style={
+            Array [
+              Object {
+                "height": 160,
+                "marginLeft": -23,
+                "overflow": "hidden",
+                "position": "relative",
+              },
+              Object {
+                "transform": Array [
+                  Object {
+                    "scaleX": 1,
+                  },
+                ],
+              },
+            ]
+          }
+        >
+          <View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "#f2f6f5",
+                    "borderColor": "#c8dad3",
+                    "borderRadius": 5,
+                    "borderWidth": 1,
+                    "height": 140,
+                    "marginHorizontal": 31,
+                    "marginVertical": 20,
+                    "overflow": "hidden",
+                  },
+                  Object {
+                    "backgroundColor": "#382039",
+                    "borderColor": "#5a3d5c",
+                    "width": 1500,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "transparent",
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "uri": "",
+                      }
+                    }
+                    style={
+                      Object {
+                        "borderLeftColor": "#f9089b",
+                        "borderLeftWidth": 1,
+                        "height": "100%",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </View>
+              </View>
+            </View>
+          </View>
+        </RCTScrollView>
+      </View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "flex": 1,
+            "flexDirection": "row",
+            "marginTop": 10,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#f9089b",
+              "borderRadius": 20,
+              "height": 35,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "#fff",
+                  "fontSize": 14,
+                  "marginTop": 4,
+                },
+                Object {
+                  "fontSize": 16,
+                },
+              ]
+            }
+          >
+            start
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#f9089b",
+              "borderRadius": 20,
+              "height": 35,
+              "justifyContent": "center",
+              "marginLeft": 30,
+              "opacity": 1,
+              "width": 80,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "#fff",
+                  "fontSize": 14,
+                  "marginTop": 4,
+                },
+                Object {
+                  "fontSize": 16,
+                },
+              ]
+            }
+          >
+            exit
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`AudioTrimmer Tests should render TrimmerSlider correctly 1`] = `
+<View
+  style={
+    Object {
+      "height": 160,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "paddingTop": 10,
+          "position": "absolute",
+          "width": 14,
+          "zIndex": 1,
+        },
+        Object {
+          "left": 0,
+          "position": "absolute",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#63707e",
+            "borderRadius": 3,
+            "height": 155,
+            "marginLeft": -5,
+            "marginTop": 15,
+            "width": 5,
+          },
+          Object {
+            "backgroundColor": "#63707e",
+          },
+        ]
+      }
+    />
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "width": 1600,
+      }
+    }
+    horizontal={true}
+    onLayout={[Function]}
+    onMoveShouldSetResponder={[Function]}
+    onMoveShouldSetResponderCapture={[Function]}
+    onResponderEnd={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderReject={[Function]}
+    onResponderRelease={[Function]}
+    onResponderStart={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onScroll={[Function]}
+    onScrollEndDrag={[Function]}
+    onStartShouldSetResponder={[Function]}
+    onStartShouldSetResponderCapture={[Function]}
+    scrollEnabled={true}
+    showsHorizontalScrollIndicator={true}
+    style={
+      Array [
+        Object {
+          "height": 160,
+          "marginLeft": -23,
+          "overflow": "hidden",
+          "position": "relative",
+        },
+        Object {
+          "transform": Array [
+            Object {
+              "scaleX": 1,
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#f2f6f5",
+              "borderColor": "#c8dad3",
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "height": 140,
+              "marginHorizontal": 31,
+              "marginVertical": 20,
+              "overflow": "hidden",
+            },
+            Object {
+              "backgroundColor": "#f2f6f5",
+              "borderColor": "#c8dad3",
+              "width": 1500,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "",
+                }
+              }
+              style={
+                Object {
+                  "borderLeftColor": undefined,
+                  "borderLeftWidth": 1,
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

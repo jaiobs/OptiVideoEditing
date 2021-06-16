@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="frames_video_height">80dip</dimen>
+    <dimen name="frames_video_height_medium">60dip</dimen>
+    <dimen name="progress_video_line_height">2dp</dimen>
+    <dimen name="initial_text_size">16sp</dimen>
+    <dimen name="video_list_item_icon">40dip</dimen>
+    <dimen name="audio_wave_height">100dip</dimen>
+    <dimen name="frames_video_height_small">40dip</dimen>
+</resources>

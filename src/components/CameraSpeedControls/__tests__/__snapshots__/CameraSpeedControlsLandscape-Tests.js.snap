@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`android CameraSpeedAndroid should render correctly photoPicker with state to props 1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "center",
+      "bottom": 0,
+      "position": "absolute",
+      "zIndex": 2,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "transform": Array [
+            Object {
+              "scale": 0.9,
+            },
+          ],
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 15,
+            }
+          }
+        >
+          Normal
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "marginBottom": 20,
+          }
+        }
+      >
+        <View
+          delay={10}
+          isSpeedControl={false}
+          moveSlop={15}
+          onPress={[Function]}
+          scale={1.1}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 45,
+            }
+          }
+        >
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/res/assets/images/flash_light_in_active.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 34,
+                  "marginLeft": 12,
+                  "width": 34,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          delay={10}
+          isSpeedControl={false}
+          moveSlop={15}
+          onPress={[Function]}
+          scale={1.1}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 45,
+            }
+          }
+        >
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/res/assets/images/change_camera_face.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 34,
+                  "marginLeft": 12,
+                  "width": 34,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          delay={10}
+          isSpeedControl={false}
+          moveSlop={15}
+          onPress={[Function]}
+          scale={1.1}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 45,
+            }
+          }
+        >
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/res/assets/images/slowmotion_icon.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 34,
+                  "marginLeft": 12,
+                  "width": 34,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          delay={10}
+          isSpeedControl={false}
+          moveSlop={15}
+          onPress={[Function]}
+          scale={1.1}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 45,
+            }
+          }
+        >
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/res/assets/images/timer_icon.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 34,
+                  "marginLeft": 12,
+                  "width": 34,
+                }
+              }
+            />
+          </View>
+        </View>
+        <View
+          delay={10}
+          isSpeedControl={false}
+          moveSlop={15}
+          onPress={[Function]}
+          scale={1.1}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "opacity": 0,
+              "transform": Array [
+                Object {
+                  "scale": 1,
+                },
+              ],
+              "width": 45,
+            }
+          }
+        >
+          <View
+            onMoveShouldSetResponder={[Function]}
+            onMoveShouldSetResponderCapture={[Function]}
+            onResponderEnd={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderReject={[Function]}
+            onResponderRelease={[Function]}
+            onResponderStart={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            onStartShouldSetResponderCapture={[Function]}
+          >
+            <Image
+              source={
+                Object {
+                  "testUri": "../../../src/res/assets/images/music_icon.png",
+                }
+              }
+              style={
+                Object {
+                  "height": 34,
+                  "marginLeft": 12,
+                  "width": 34,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

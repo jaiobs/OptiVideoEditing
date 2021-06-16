@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">litpicsdkdroid</string>
+    <string name="trimmed_done">Completed!</string>
+    <string name="trimming">Trimming</string>
+    <string name="compressing">Compressing</string>
+    <string name="compressed_done">Done</string>
+    <string name="video_shoot_tip">Drag to select %d seconds</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+
+    <string name="save">Save</string>
+    <string name="short_seconds">sec</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">error</string>
+    <string name="VideoView_error_button">error</string>
+
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+
+    <!--place holder-->
+    <string name="placeholder_track_title">Love you</string>
+    <string name="placeholder_track_author">Micheal Jackson</string>
+    <string name="placeholder_tab_clip_to_crop">Tab the clip to crop</string>
+    <string name="placeholder_start_time">Start time 0.00</string>
+    <string name="placeholder_end_time">End time 0.30</string>
+
+    <string name="slow_one">0.8x</string>
+    <string name="slow_two">0.5x</string>
+    <string name="fast_one">1.5x</string>
+    <string name="fast_two">2.0x</string>
+
+    <string name="tag_user_tap_screen_msg">tap anywhere to tag friends</string>
+
+    <string name="total_str_place_holder">Total 0.00s</string>
+    <string name="failed_do_download">Failed to download</string>
+</resources>

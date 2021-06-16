@@ -1,0 +1,2215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoTrimmer render flatList with defined values  should match the snapshot 1`] = `
+<Modal
+  animationType="slide"
+  deviceHeight={null}
+  deviceWidth={null}
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  onRequestClose={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    animationType="slide"
+    deviceHeight={null}
+    deviceWidth={null}
+    hideModalContentWhileAnimating={false}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    pointerEvents="box-none"
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "backgroundColor": "rgba(185,135,150,0.5)",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "margin": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(255,255,255,0.2)",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0,0,0,0.3)",
+            "borderColor": "white",
+            "borderRadius": 25,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "height": 40,
+            "margin": 10,
+            "paddingLeft": 5,
+            "width": "70%",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/iconsearch.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 30,
+              "resizeMode": "contain",
+              "width": 30,
+            }
+          }
+        />
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Search giphy stickers"
+          placeholderTextColor="white"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "color": "white",
+              "width": "100%",
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "id": 0,
+              "sticker_id": 1,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/sticker_icon.png",
+              },
+            },
+            Object {
+              "id": 1,
+              "sticker_id": 3,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/text_sticker.png",
+              },
+            },
+            Object {
+              "id": 2,
+              "sticker_id": 3,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/gif_sticker.png",
+              },
+            },
+            Object {
+              "id": 3,
+              "sticker_id": 2,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/emoji_sticker.png",
+              },
+            },
+            Object {
+              "id": 4,
+              "sticker_id": 7,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/shapes_sticker.png",
+              },
+            },
+            Object {
+              "id": 5,
+              "sticker_id": 8,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/university_sticker.png",
+              },
+            },
+            Object {
+              "id": 6,
+              "sticker_id": 9,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/effect_sticker.png",
+              },
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        keyboardShouldPersistTaps="handled"
+        maxToRenderPerBatch={10}
+        nestedScrollEnabled={true}
+        numColumns={1}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 4,
+                  "borderColor": "#f9089b",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/sticker_icon.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/text_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/gif_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/emoji_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/shapes_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/university_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/effect_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 14,
+          "width": "90%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/leftArrow.png",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/downArrow.png",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/rightArrow.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        onMoveShouldSetResponder={[Function]}
+        onMoveShouldSetResponderCapture={[Function]}
+        onResponderEnd={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderReject={[Function]}
+        onResponderRelease={[Function]}
+        onResponderStart={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "transform": Array [
+              Object {
+                "translateX": -4500,
+              },
+            ],
+            "width": 0,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "width": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`VideoTrimmer render flatList with null value  should match the snapshot 1`] = `
+<Modal
+  animationType="slide"
+  deviceHeight={null}
+  deviceWidth={null}
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  onRequestClose={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    animationType="slide"
+    deviceHeight={null}
+    deviceWidth={null}
+    hideModalContentWhileAnimating={false}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    pointerEvents="box-none"
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "backgroundColor": "rgba(185,135,150,0.5)",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "margin": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(255,255,255,0.2)",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0,0,0,0.3)",
+            "borderColor": "white",
+            "borderRadius": 25,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "height": 40,
+            "margin": 10,
+            "paddingLeft": 5,
+            "width": "70%",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/iconsearch.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 30,
+              "resizeMode": "contain",
+              "width": 30,
+            }
+          }
+        />
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Search giphy stickers"
+          placeholderTextColor="white"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "color": "white",
+              "width": "100%",
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "id": 0,
+              "sticker_id": 1,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/sticker_icon.png",
+              },
+            },
+            Object {
+              "id": 1,
+              "sticker_id": 3,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/text_sticker.png",
+              },
+            },
+            Object {
+              "id": 2,
+              "sticker_id": 3,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/gif_sticker.png",
+              },
+            },
+            Object {
+              "id": 3,
+              "sticker_id": 2,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/emoji_sticker.png",
+              },
+            },
+            Object {
+              "id": 4,
+              "sticker_id": 7,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/shapes_sticker.png",
+              },
+            },
+            Object {
+              "id": 5,
+              "sticker_id": 8,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/university_sticker.png",
+              },
+            },
+            Object {
+              "id": 6,
+              "sticker_id": 9,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/effect_sticker.png",
+              },
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        keyboardShouldPersistTaps="handled"
+        maxToRenderPerBatch={10}
+        nestedScrollEnabled={true}
+        numColumns={1}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 4,
+                  "borderColor": "#f9089b",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/sticker_icon.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/text_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/gif_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/emoji_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/shapes_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/university_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/effect_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 14,
+          "width": "90%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/leftArrow.png",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/downArrow.png",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/rightArrow.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        onMoveShouldSetResponder={[Function]}
+        onMoveShouldSetResponderCapture={[Function]}
+        onResponderEnd={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderReject={[Function]}
+        onResponderRelease={[Function]}
+        onResponderStart={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "transform": Array [
+              Object {
+                "translateX": -4500,
+              },
+            ],
+            "width": 0,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "width": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
+
+exports[`VideoTrimmerTest should render correctly with state to props 1`] = `
+<Modal
+  animationType="slide"
+  deviceHeight={null}
+  deviceWidth={null}
+  hardwareAccelerated={false}
+  hideModalContentWhileAnimating={false}
+  onBackdropPress={[Function]}
+  onModalHide={[Function]}
+  onModalWillHide={[Function]}
+  onModalWillShow={[Function]}
+  onRequestClose={[Function]}
+  scrollHorizontal={false}
+  scrollOffset={0}
+  scrollOffsetMax={0}
+  scrollTo={null}
+  supportedOrientations={
+    Array [
+      "portrait",
+      "landscape",
+    ]
+  }
+  swipeThreshold={100}
+  transparent={true}
+  visible={true}
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "bottom": 0,
+        "height": 1334,
+        "left": 0,
+        "opacity": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "width": 750,
+      }
+    }
+  />
+  <View
+    animationType="slide"
+    deviceHeight={null}
+    deviceWidth={null}
+    hideModalContentWhileAnimating={false}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    pointerEvents="box-none"
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    style={
+      Object {
+        "backgroundColor": "rgba(185,135,150,0.5)",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "flex-start",
+        "margin": 0,
+        "transform": Array [
+          Object {
+            "translateY": 0,
+          },
+        ],
+      }
+    }
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(255,255,255,0.2)",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "center",
+            "backgroundColor": "rgba(0,0,0,0.3)",
+            "borderColor": "white",
+            "borderRadius": 25,
+            "borderWidth": 2,
+            "flexDirection": "row",
+            "height": 40,
+            "margin": 10,
+            "paddingLeft": 5,
+            "width": "70%",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/iconsearch.png",
+            }
+          }
+          style={
+            Object {
+              "alignSelf": "center",
+              "height": 30,
+              "resizeMode": "contain",
+              "width": 30,
+            }
+          }
+        />
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Search giphy stickers"
+          placeholderTextColor="white"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "color": "white",
+              "width": "100%",
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <RCTScrollView
+        data={
+          Array [
+            Object {
+              "id": 0,
+              "sticker_id": 1,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/sticker_icon.png",
+              },
+            },
+            Object {
+              "id": 1,
+              "sticker_id": 3,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/text_sticker.png",
+              },
+            },
+            Object {
+              "id": 2,
+              "sticker_id": 3,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/gif_sticker.png",
+              },
+            },
+            Object {
+              "id": 3,
+              "sticker_id": 2,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/emoji_sticker.png",
+              },
+            },
+            Object {
+              "id": 4,
+              "sticker_id": 7,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/shapes_sticker.png",
+              },
+            },
+            Object {
+              "id": 5,
+              "sticker_id": 8,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/university_sticker.png",
+              },
+            },
+            Object {
+              "id": 6,
+              "sticker_id": 9,
+              "url": Object {
+                "testUri": "../../../src/res/assets/images/effect_sticker.png",
+              },
+            },
+          ]
+        }
+        disableVirtualization={false}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        horizontal={true}
+        initialNumToRender={10}
+        keyExtractor={[Function]}
+        keyboardShouldPersistTaps="handled"
+        maxToRenderPerBatch={10}
+        nestedScrollEnabled={true}
+        numColumns={1}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        removeClippedSubviews={false}
+        renderItem={[Function]}
+        scrollEventThrottle={50}
+        stickyHeaderIndices={Array []}
+        updateCellsBatchingPeriod={50}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={21}
+      >
+        <View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 4,
+                  "borderColor": "#f9089b",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/sticker_icon.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/text_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/gif_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/emoji_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/shapes_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/university_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+          <View
+            onLayout={[Function]}
+            style={
+              Array [
+                Object {
+                  "flexDirection": "row",
+                },
+                null,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              isTVSelectable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "borderBottomWidth": 0,
+                  "borderColor": "transparent",
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 55,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/res/assets/images/effect_sticker.png",
+                  }
+                }
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "height": 30,
+                    "resizeMode": "contain",
+                    "width": 30,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </View>
+      </RCTScrollView>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 14,
+          "width": "90%",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/leftArrow.png",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/downArrow.png",
+            }
+          }
+        />
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/res/assets/images/rightArrow.png",
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        onMoveShouldSetResponder={[Function]}
+        onMoveShouldSetResponderCapture={[Function]}
+        onResponderEnd={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderReject={[Function]}
+        onResponderRelease={[Function]}
+        onResponderStart={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "transform": Array [
+              Object {
+                "translateX": -4500,
+              },
+            ],
+            "width": 0,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "flex": 1,
+                "flexDirection": "row",
+                "width": 0,
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+  </View>
+</Modal>
+`;

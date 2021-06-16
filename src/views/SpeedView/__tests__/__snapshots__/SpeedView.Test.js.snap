@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpeedView-Test should render the SpeedView 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "black",
+      "flex": 1,
+    }
+  }
+>
+  <SpeedView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "marginTop": 34,
+        "opacity": 1,
+        "padding": 4,
+        "paddingLeft": 10,
+        "position": "absolute",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../src/res/assets/images/cross.png",
+        }
+      }
+      style={
+        Object {
+          "height": 25,
+          "margin": 10,
+          "resizeMode": "contain",
+          "width": 25,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "bottom": 125,
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "space-evenly",
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 14,
+          "height": 28,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 65,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 12,
+          }
+        }
+      >
+        3x slow
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 14,
+          "height": 28,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 65,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 12,
+          }
+        }
+      >
+        2x slow
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 50,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/res/assets/images/slowmotion_icon.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 35,
+              "margin": 10,
+              "resizeMode": "contain",
+              "width": 35,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 14,
+          "height": 28,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 65,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 12,
+          }
+        }
+      >
+        2x fast
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "white",
+          "borderRadius": 14,
+          "height": 28,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 65,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 12,
+          }
+        }
+      >
+        3x fast
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "bottom": 20,
+        "flexDirection": "row",
+        "height": 50,
+        "justifyContent": "flex-end",
+        "maxHeight": 50,
+        "position": "absolute",
+        "right": 0,
+        "width": 50,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 30,
+          "justifyContent": "center",
+          "opacity": 1,
+          "right": 10,
+          "width": 30,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/res/assets/images/next_button_send.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 25,
+              "margin": 10,
+              "resizeMode": "contain",
+              "width": 25,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;

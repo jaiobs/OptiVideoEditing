@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <FrameLayout
+        android:id="@+id/videoLayout"
+        android:visibility="gone"
+        android:background="#ffffff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <RelativeLayout
+        android:id="@+id/timeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blur_blue"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/vtTotalTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:freezesText="true"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/blur_blue"
+        android:foregroundGravity="center_vertical"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:visibility="visible">
+
+        <SeekBar
+            android:id="@+id/handlerTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:max="1000"
+            android:progressDrawable="@android:color/transparent"
+            android:scaleY="1.8"
+            android:secondaryProgress="0"
+            android:thumb="@drawable/icon_seek_bar"
+            android:visibility="gone" />
+
+        <com.litpic.litpicsdkdroid.trimmermodule.view.TimeLineView
+            android:id="@+id/timeLineView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.litpic.litpicsdkdroid.trimmermodule.view.RangeSeekBarView
+            android:id="@+id/trimeVideoBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/timeLineView" />
+
+
+    </RelativeLayout>
+
+    <com.litpic.litpicsdkdroid.trimmermodule.CustomLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:background="@color/blur_blue"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/placeholder_tab_clip_to_crop"
+            android:textColor="@color/white" />
+
+        <com.litpic.litpicsdkdroid.trimmermodule.CustomLinearLayout
+            android:id="@+id/ll_video_list"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="8dp">
+
+            <com.litpic.litpicsdkdroid.trimmermodule.CustomRecyclerView
+                android:id="@+id/rv_video_thumb"
+                android:foregroundGravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
+
+        </com.litpic.litpicsdkdroid.trimmermodule.CustomLinearLayout>
+
+    </com.litpic.litpicsdkdroid.trimmermodule.CustomLinearLayout>
+
+
+</LinearLayout>

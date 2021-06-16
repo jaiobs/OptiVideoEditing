@@ -1,0 +1,50 @@
+package com.litpic.litpicsdkdroid.utils;
+
+import android.util.Log;
+
+import com.litpic.litpicsdkdroid.R;
+
+public class ColorTransparentUtils {
+
+    private ColorTransparentUtils() {
+    }
+
+    public static final int DEFAULT_COLOR = R.color.colorAccent;
+    public static final String TAG = "ColorTransparentUtils";
+
+    /**
+     * This method convert numver into hexa number or we can say transparent code
+     *
+     * @param trans number of transparency you want
+     * @return it return hex decimal number or transparency code
+     */
+    public static String convert(int trans) {
+        String hexString = Integer.toHexString(Math.round(255 * trans / 100f));
+        return (hexString.length() < 2 ? "0" : "") + hexString;
+    }
+
+    public static String transparentColor(int colorCode, int trans) {
+        return convertIntoColor(colorCode, trans);
+    }
+
+    /**
+     * Convert color code into transparent color code
+     *
+     * @param colorCode color code
+     * @param transCode transparent number
+     * @return transparent color code
+     */
+    public static String convertIntoColor(int colorCode, int transCode) {
+        // convert color code into hexa string and remove starting 2 digit
+        String color = Integer.toHexString(colorCode).toUpperCase().substring(2);
+        if (!color.isEmpty() && transCode > 100) {
+            if (color.trim().length() == 6) {
+                return "#" + convert(transCode) + color;
+            } else {
+                Log.d(TAG, "Color is already with transparency");
+                return convert(transCode) + color;
+            }
+        }
+        return "#" + Integer.toHexString(DEFAULT_COLOR).toUpperCase().substring(2);
+    }
+}

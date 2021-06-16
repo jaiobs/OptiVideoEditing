@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Arrow Tests should render Left correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "position": "relative",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "height": 10,
+          "position": "absolute",
+          "width": 2,
+        },
+        Object {
+          "borderTopLeftRadius": 2,
+          "borderTopRightRadius": 2,
+          "bottom": "49%",
+          "transform": Array [
+            Object {
+              "rotate": "20deg",
+            },
+          ],
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "height": 10,
+          "position": "absolute",
+          "width": 2,
+        },
+        Object {
+          "borderBottomLeftRadius": 2,
+          "borderBottomRightRadius": 2,
+          "top": "49%",
+          "transform": Array [
+            Object {
+              "rotate": "-20deg",
+            },
+          ],
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`Arrow Tests should render Right correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "position": "relative",
+        "width": "100%",
+      },
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "180deg",
+          },
+        ],
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "height": 10,
+          "position": "absolute",
+          "width": 2,
+        },
+        Object {
+          "borderTopLeftRadius": 2,
+          "borderTopRightRadius": 2,
+          "bottom": "49%",
+          "transform": Array [
+            Object {
+              "rotate": "20deg",
+            },
+          ],
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "height": 10,
+          "position": "absolute",
+          "width": 2,
+        },
+        Object {
+          "borderBottomLeftRadius": 2,
+          "borderBottomRightRadius": 2,
+          "top": "49%",
+          "transform": Array [
+            Object {
+              "rotate": "-20deg",
+            },
+          ],
+        },
+      ]
+    }
+  />
+</View>
+`;

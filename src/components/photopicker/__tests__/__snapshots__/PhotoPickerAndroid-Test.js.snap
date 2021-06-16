@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoPickerAndroidTest should render the PhotoPickerAndroid 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "height": "100%",
+      "marginBottom": 12,
+      "marginLeft": 6,
+      "marginRight": 6,
+      "marginTop": 12,
+      "width": "100%",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#f9089b"
+    hidesWhenStopped={true}
+    size="large"
+  />
+  <RCTScrollView
+    automaticallyAdjustContentInsets={false}
+    initialNumToRender={1000}
+    nestedScrollEnabled={true}
+    style={
+      Object {
+        "backgroundColor": "black",
+        "flex": 1,
+        "marginBottom": 200,
+      }
+    }
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

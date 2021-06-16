@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.co.cyberagent.android.gpuimage.GPUImageView
+    android:id="@+id/surfaceView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:gpuimage_show_loading="false"
+    app:gpuimage_surface_type="texture_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

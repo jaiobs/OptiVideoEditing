@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoTrimmerTest should render correctly with state to props 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "flex": 1,
+          "position": "absolute",
+        },
+        undefined,
+      ]
+    }
+  />
+  <VideoTrimmer
+    filter={
+      Object {
+        "brightness": 0,
+        "contrast": 1,
+        "name": "",
+        "range": 1,
+        "saturation": 1,
+        "type": "NORMAL",
+      }
+    }
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": 1034,
+        "position": "absolute",
+        "right": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "maxHeight": 50,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 50,
+            "justifyContent": "center",
+            "width": 50,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          focusable={true}
+          isTVSelectable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "left": 15,
+              "opacity": 1,
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+              "position": "absolute",
+              "top": 10,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/res/assets/images/cross.png",
+              }
+            }
+            style={
+              Object {
+                "height": 24,
+                "resizeMode": "contain",
+                "width": 24,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 15,
+              "textShadowColor": "rgba(0, 0, 0, 0.75)",
+              "textShadowOffset": Object {
+                "height": 1,
+                "width": -1,
+              },
+              "textShadowRadius": 10,
+            }
+          }
+        >
+          tap screen for filters
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textShadowColor": "rgba(0, 0, 0, 0.75)",
+              "textShadowOffset": Object {
+                "height": 1,
+                "width": -1,
+              },
+              "textShadowRadius": 10,
+            }
+          }
+        >
+          
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 50,
+            "width": 50,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "bottom": 180,
+          "flexDirection": "row",
+          "height": "100%",
+          "marginTop": 50,
+          "position": "absolute",
+          "width": "80%",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 18,
+        "height": 50,
+        "justifyContent": "center",
+        "position": "absolute",
+        "right": 0,
+        "width": 50,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "height": 32,
+          "margin": 10,
+          "marginBottom": 0,
+          "marginLeft": 0,
+          "marginRight": 13,
+          "opacity": 1,
+          "width": 32,
+        }
+      }
+      testID="nextBtn_on_Trimmer"
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/res/assets/images/next_button_send.png",
+          }
+        }
+        style={
+          Object {
+            "height": 32,
+            "resizeMode": "contain",
+            "width": 32,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`VideoTrimmerTest should render function call correctly 1`] = `[Function]`;

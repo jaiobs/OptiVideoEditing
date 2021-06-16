@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 The Android Open Source Project
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+         http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+
+    <style name="Widget.CameraView" parent="android:Widget">
+        <item name="android:adjustViewBounds">false</item>
+        <item name="facing">front</item>
+        <item name="aspectRatio">16:9</item>
+        <item name="autoFocus">true</item>
+        <item name="flash">auto</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+        <!--<item name="android:windowBackground">@drawable/launch_screen_bitmap</item>-->
+    </style>
+
+    <style name="customTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#62b1e6</item>
+        <item name="colorPrimaryDark">#62b1e6</item>
+    </style>
+
+    <style name="CameraPluginAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="buttonTextView">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="DefaultExplainingPermissionsTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#61c3e7</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#3d3d3d</item>
+        <!-- Used for the background -->
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="Toolbar.Nixplay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="Popup.Nixplay" parent="Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">@color/nixplay_album_popup_bg</item>
+    </style>
+
+    <style name="Nixplay.Light" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/nixplay_primary</item>
+        <item name="colorPrimaryDark">@color/nixplay_primary_dark</item>
+        <item name="android:listPopupWindowStyle">@style/Popup.Nixplay</item>
+        <item name="listPopupWindowStyle">@style/Popup.Nixplay</item>
+    </style>
+
+    <style name="overlayText">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+</resources>

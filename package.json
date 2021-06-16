@@ -1,0 +1,73 @@
+{
+  "author": {
+    "name": "OptiVideoEditing",
+    "email": "vigneshwaran.n@optisolbusiness.com"
+  },
+  "bugs": {
+    "url": "https://github.com/OptiVideoEditing-live/CameraSDK/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "OptiVideoEditing camera module which use core library of OptiVideoEditing sdk which used in main application",
+  "devDependencies": {
+    "@angular-devkit/build-angular": "0.803.20",
+    "@angular/cli": "8.3.20",
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@testing-library/react-native": "^7.2.0",
+    "babel-jest": "*",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.59.0",
+    "react": "^16.9.0",
+    "react-native": "^0.61.5",
+    "react-redux": "^7.2.4",
+    "react-test-renderer": "16.13.1",
+    "recyclerlistview": "^3.0.5",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.4",
+    "@react-native-community/slider": "^3.0.3",
+    "@stevenmasini/react-native-fast-image": "^7.0.3",
+    "auto-changelog": "^2.2.1",
+    "axios": "^0.21.1",
+    "enzyme": "^3.11.0",
+    "lodash": "^4.17.20",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-image-progress": "^1.1.1",
+    "react-native-modal": "^11.6.1",
+    "react-native-permissions": "^3.0.4",
+    "react-redux": "^7.2.4",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "homepage": "https://github.com/jaiobs/OptiVideoEditing#readme",
+  "keywords": [
+    "react-native",
+    "OptiVideoEditing"
+  ],
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "main": "src/OptiVideoEditingcameramodule/index.js",
+  "name": "@OptiVideoEditing/react-native-OptiVideoEditing-camera-module",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaiobs/OptiVideoEditing",
+    "baseUrl": "https://github.com/jaiobs/OptiVideoEditing"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest coverage",
+    "version": "auto-changelog -p --hide-credit && git add CHANGELOG.md"
+  },
+  "title": "React Native OptiVideoEditing Camera Module",
+  "version": "1.13.2",
+  "jest": {
+    "preset": "react-native"
+  }
+}

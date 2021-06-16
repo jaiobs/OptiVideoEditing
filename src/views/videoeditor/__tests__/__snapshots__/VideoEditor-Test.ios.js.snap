@@ -1,0 +1,231 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoEditorTest should render correctly with state to props 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <PreviewFilter
+      filter={
+        Object {
+          "brightness": 0,
+          "contrast": 1,
+          "name": "",
+          "range": 1,
+          "saturation": 1,
+          "type": "NORMAL",
+        }
+      }
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignSelf": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "height": "100%",
+          "position": "absolute",
+          "width": "79%",
+          "zIndex": 1,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      />
+      <View
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "marginTop": 15,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 15,
+            "textShadowColor": "rgba(0, 0, 0, 0.75)",
+            "textShadowOffset": Object {
+              "height": 1,
+              "width": -1,
+            },
+            "textShadowRadius": 10,
+          }
+        }
+      >
+        tap screen for filters
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 28,
+        "height": 32,
+        "justifyContent": "center",
+        "marginLeft": 3,
+        "position": "absolute",
+        "right": 0,
+        "width": 50,
+        "zIndex": 999,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/res/assets/images/next_button_send.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "height": 32,
+              "margin": 10,
+              "marginBottom": 0,
+              "marginLeft": 0,
+              "marginRight": 13,
+              "resizeMode": "contain",
+              "width": 32,
+            },
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "height": 50,
+        "position": "absolute",
+        "width": 50,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "left": 10,
+          "opacity": 1,
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+          "position": "absolute",
+          "top": 10,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/res/assets/images/cross.png",
+          }
+        }
+        style={
+          Object {
+            "height": 24,
+            "resizeMode": "contain",
+            "width": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
